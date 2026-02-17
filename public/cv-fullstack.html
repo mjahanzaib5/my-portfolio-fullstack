@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jahanzaib Khan - Full Stack Developer CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #111;
+            --secondary: #555;
+            --accent: #2563eb;
+            --border: #ddd;
+            --bg: #fff;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.4;
+            color: var(--primary);
+            background: #f0f0f0;
+            margin: 0;
+            padding: 20px 0;
+        }
+
+        .container {
+            width: 850px;
+            margin: 0 auto;
+            background: var(--bg);
+            padding: 40px 60px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin: 0 0 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: var(--secondary);
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            font-size: 13px;
+            color: var(--secondary);
+        }
+
+        .contact span:not(:last-child)::after {
+            content: " | ";
+            margin: 0 8px;
+            color: #ccc;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            font-size: 18px;
+            text-transform: uppercase;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 5px;
+            margin: 0 0 12px;
+            letter-spacing: 0.5px;
+        }
+
+        p {
+            margin: 0 0 8px;
+            font-size: 14px;
+            color: #444;
+            text-align: justify;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 18px;
+        }
+
+        li {
+            margin-bottom: 5px;
+            font-size: 13.5px;
+            color: #444;
+        }
+
+        .experience-item {
+            margin-bottom: 18px;
+        }
+
+        .exp-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 3px;
+            font-weight: 700;
+            font-size: 15px;
+        }
+
+        .exp-meta {
+            font-style: italic;
+            color: var(--secondary);
+            font-size: 13px;
+            margin-bottom: 7px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .skill-item {
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+
+        .skill-cat {
+            font-weight: 700;
+            font-size: 14px;
+            margin-bottom: 3px;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+        }
+
+        .project-item {
+            font-size: 12px;
+            border-left: 2px solid var(--accent);
+            padding-left: 8px;
+        }
+
+        .project-item strong {
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .project-item a {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 11px;
+        }
+
+        @media print {
+            body {
+                background: none;
+                padding: 0;
+            }
+
+            .container {
+                box-shadow: none;
+                width: 100%;
+                margin: 0;
+                padding: 30px;
+            }
+
+            .no-print {
+                display: none;
+            }
+        }
+
+        .no-print-toolbar {
+            width: 850px;
+            margin: 0 auto 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .btn-print {
+            padding: 8px 16px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Jahanzaib Khan</h1>
+            <div class="subtitle">Full Stack Developer | PHP | Node.js | React | Database Architect</div>
+            <div class="contact">
+                Karachi, Pakistan <span>+92 321 3609115</span> <span>mjahanzaib5@gmail.com</span>
+            </div>
+        </header>
+
+        <section>
+            <h2>Professional Summary</h2>
+            <p>
+                Versatile Full Stack Developer with extensive experience in building robust web applications from
+                concept to deployment.
+                Proficient in both frontend and backend technologies including React, PHP, Node.js, MySQL, and MongoDB.
+                I create seamless user experiences backed by scalable and secure server-side architectures. Partnering
+                with startups and teams to architect scalable systems.
+            </p>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-cat">Frontend Development</div>
+                    React.js, JavaScript (ES6+), HTML5 & CSS3, Responsive Design, UX/UI Principles
+                </div>
+                <div class="skill-item">
+                    <div class="skill-cat">Backend Development</div>
+                    PHP, Node.js, Express.js, Laravel, RESTful APIs, GraphQL
+                </div>
+                <div class="skill-item">
+                    <div class="skill-cat">Databases & Infrastructure</div>
+                    MySQL, MongoDB, PostgreSQL, Database Design, AWS, Docker, CI/CD
+                </div>
+                <div class="skill-item">
+                    <div class="skill-cat">Tools & Optimization</div>
+                    Git/GitHub, Performance Optimization, Secure Auth, Payment Integration
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Professional Experience</h2>
+
+            <div class="experience-item">
+                <div class="exp-header">
+                    <span>Senior Full Stack Developer</span>
+                    <span>Fascom Limited</span>
+                </div>
+                <div class="exp-meta">Feb 2022 — Dec 2025</div>
+                <ul>
+                    <li>Architecting scalable full-stack solutions using Node.js, Express, and React.</li>
+                    <li>Managing complex database schemas in MongoDB and PostgreSQL.</li>
+                    <li>Developing responsive and interactive user interfaces focusing on seamless UX.</li>
+                    <li>Optimizing application performance and ensuring high availability across the stack.</li>
+                    <li>Integrating third-party services, payment gateways, and security protocols.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="exp-header">
+                    <span>Full Stack Developer</span>
+                    <span>Levnine Digital</span>
+                </div>
+                <div class="exp-meta">July 2020 — January 2022</div>
+                <ul>
+                    <li>Custom WordPress theme and plugin development using PHP, MySQL, and JavaScript.</li>
+                    <li>Database query optimization and performance tuning for high-traffic websites.</li>
+                    <li>Developing secure REST APIs and consuming them in modern frontend applications.</li>
+                    <li>Migrating legacy systems to modern full-stack architectures.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="exp-header">
+                    <span>Full Stack Developer</span>
+                    <span>ePlanet Communications Inc</span>
+                </div>
+                <div class="exp-meta">May 2019 — June 2020</div>
+                <ul>
+                    <li>Building robust, end-to-end web applications and managing complex databases.</li>
+                    <li>Ensuring cross-browser compatibility and mobile responsiveness.</li>
+                    <li>Collaborating with teams to deliver seamless data integration and responsive UIs.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Selected Projects</h2>
+            <div class="project-grid">
+                <div class="project-item"><strong>Vic Firth</strong>WP Dev<br><a
+                        href="https://vicfirth.com/">vicfirth.com</a></div>
+                <div class="project-item"><strong>Likely Story</strong>FS & Opt<br><a
+                        href="https://likely-story.co.uk/">likely-story.co.uk</a></div>
+                <div class="project-item"><strong>Balaala Beauty</strong>Shopify FS<br><a
+                        href="https://balaalabeautycare.com/">balaalabeauty.com</a></div>
+                <div class="project-item"><strong>Snoozy Nest</strong>E-commerce<br><a
+                        href="https://snoozynest.com/">snoozynest.com</a></div>
+                <div class="project-item"><strong>Craft 9 Studios</strong>MERN App<br><a
+                        href="https://www.craft9studios.com/">craft9studios.com</a></div>
+                <div class="project-item"><strong>Book Riot</strong>High-Traffic<br><a
+                        href="https://bookriot.com/">bookriot.com</a></div>
+                <div class="project-item"><strong>Shifaam</strong>Health Portal<br><a
+                        href="https://www.shifaam.com/">shifaam.com</a></div>
+                <div class="project-item"><strong>Activ Comm</strong>PHP FS<br><a
+                        href="https://www.activcommunication.fr/">activ.fr</a></div>
+                <div class="project-item"><strong>Dilate</strong>Architecture<br><a
+                        href="https://www.dilate.com.au/">dilate.com.au</a></div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

@@ -30,18 +30,18 @@ const SocialIcon = ({ label }) => {
 const getSocialKey = (label = "") =>
   label.toLowerCase().trim().replace(/\s+/g, "-");
 
-export default function Header({ name, socials = [], theme = "light", onToggleTheme = () => {} }) {
+export default function Header({ name, socials = [], theme = "light", onToggleTheme = () => { } }) {
   const [open, setOpen] = React.useState(false);
   const isDark = theme === "dark";
 
   // Close menu when a link is clicked (nice for one-page sites)
   const handleLinkClick = () => setOpen(false);
 
-      const handleToTop = (e) => {
+  const handleToTop = (e) => {
     e.preventDefault();
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-  
+
   const handleNav = (id) => (e) => {
     e.preventDefault();
     setOpen(false);

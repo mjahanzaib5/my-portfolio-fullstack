@@ -45,7 +45,7 @@ export default function App() {
         <Contact profile={PROFILE} socials={SOCIALS} />
       </main>
       <BackToTop />
-      <Footer  profile={PROFILE} />
+      <Footer profile={PROFILE} />
     </>
   );
 }

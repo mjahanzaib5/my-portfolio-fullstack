@@ -57,7 +57,7 @@ export const EXPERIENCE = [
     ]
   },
   {
-    role: "Web Developer",
+    role: "Full Stack Developer",
     company: "ePlanet Communications Inc",
     period: "May 2019 — June 2020",
     details: [
