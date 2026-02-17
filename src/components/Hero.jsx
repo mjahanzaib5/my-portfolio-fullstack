@@ -68,7 +68,7 @@ export default function Hero({ profile }) {
       const tl = gsap.timeline();
       tl.to(roleRef.current, {
         duration: 1.5,
-        text: { value: "Backend Developer" },
+        text: { value: "Full Stack Developer" },
         delay: 0.5,
       });
     }, heroRef);
@@ -131,9 +131,9 @@ export default function Hero({ profile }) {
           <div className="hero-card">
             <span className="hero-card-badge">Currently available</span>
             <div className="hero-card-summary">
-              <h2>Backend Developer</h2>
+              <h2>Full Stack Developer</h2>
               <p>
-                Specializing in robust server-side logic, database optimization, and secure API architecture for scalable applications.
+                Specializing in end-to-end web solutions, from interactive frontends to scalable backend architectures and database optimization.
               </p>
             </div>
             <div className="hero-stats">

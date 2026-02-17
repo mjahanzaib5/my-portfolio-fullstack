@@ -10,9 +10,9 @@ export default function Contact({ profile, socials = [] }) {
       <div className="container contact-layout">
         <div className="contact-intro">
           <span className="section-eyebrow" data-animate>Let's collaborate</span>
-          <h2 className="section-title" data-animate>Ready to scale your infrastructure?</h2>
+          <h2 className="section-title" data-animate>Ready to build your next big idea?</h2>
           <p className="section-lead" data-animate>
-            Whether you need a backend architect, API specialist, or database expert to optimize your platform, let's connect.
+            Whether you need a full stack partner, API specialist, or frontend expert to bring your vision to life, let's connect.
           </p>
         </div>
         <div className="contact-card" data-animate>
