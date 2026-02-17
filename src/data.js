@@ -73,7 +73,7 @@ export const PROJECTS = [
     name: "Me2uPay",
     url: "https://me2upay.se/",
     thumbnail: "/images/projects/5.jpg",
-    details: "PHP/Laravel Full Stack Application"
+    details: "PHP/Inertia Full Stack Application"
   },
   {
     name: "Vic Firth",
