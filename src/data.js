@@ -69,12 +69,12 @@ export const EXPERIENCE = [
 ];
 
 export const PROJECTS = [
-  {
-    name: "Me2uPay",
-    url: "https://me2upay.se/",
-    thumbnail: "/images/projects/5.jpg",
-    details: "PHP/Inertia Full Stack Application"
-  },
+  // {
+  //   name: "Me2uPay",
+  //   url: "https://me2upay.se/",
+  //   thumbnail: "/images/projects/5.jpg",
+  //   details: "PHP/Inertia Full Stack Application"
+  // },
   {
     name: "Vic Firth",
     url: "https://vicfirth.com/",
